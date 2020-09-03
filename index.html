@@ -14,13 +14,21 @@
     <body>
         <div class="wrapper clearfix">
             <header>
-                <div>
-                    <form class="form" id="details">
-                        <input maxlength="9" placeholder="Player1 Name"class='playerDetails' id="player1" value="">
-                        <input maxlength="9" placeholder="Player2 Name" class="playerDetails" id="player2" value="">
-                        <input type="submit" id="submit">
-                    </form>
-    
+                <div class="formData">
+                    <div>
+                        <form class="form" id="details">
+                            <!-- <label class="playerLabel">Player1 Name</label> -->
+                            <!-- <input  placeholder="Enter name" id="player1" value=" "> -->
+                            <!-- <label class="playerLabel">Player2 Name</label> -->
+                            <!-- <input type="text" id="player2" value=" "> -->
+                            <input maxlength="9" placeholder="Player1 Name"class='playerDetails' id="player1" value="">
+                            <input maxlength="9" placeholder="Player2 Name" class="playerDetails" id="player2" value="">
+                            <input type="submit" id="submit">
+                        </form>
+                    </div>
+                    <div>
+                        <h4>Player who reaches 100 will be the winner</h4>
+                    </div>
                 </div>
             </header>
             <div class="player-0-panel active">
@@ -40,9 +48,12 @@
                     <div class="player-current-score" id="current-1">0</div>
                 </div>
             </div>
+            <!-- <button class="btn-new"><i class="ion-ios-plus-outline"></i>New game</button> -->
             <button class="btn-roll"><i class="ion-ios-loop"></i>Roll dice</button>
             <button class="btn-hold"><i class="ion-ios-download-outline"></i>Hold</button>
             <div id="dice-number" class="diceRoll">1</div>
+            <!-- <div id="dice-number" class="diceRoll secondDice">2</div> -->
+            <!-- <img src="dice-5.png" alt="Dice" class="dice"> -->
         </div>
         
     </body>
