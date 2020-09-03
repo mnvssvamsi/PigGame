@@ -50,6 +50,7 @@ header {
 }
 input {
     padding: 3px;
+    outline: none;
 }
 
 #submit{
